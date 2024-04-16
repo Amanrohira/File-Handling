@@ -60,7 +60,7 @@ if(vid is not None):
 
 
 st.subheader('Working with Audio files: ')
-st.audio('Streamlit/song.mp3')
+# st.audio('Streamlit/song.mp3')
 
 aud = st.file_uploader('Upload Audio file Here: ',type=['mp3','mp4'])
 if aud is not None:
