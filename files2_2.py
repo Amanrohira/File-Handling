@@ -19,7 +19,7 @@ if df is not None:
 
 # displaying the above data in csv format and for that we are using pandas.
 
-df2 = pd.read_csv('Streamlit/Products.csv')
+df2 = pd.read_csv('Products.csv')
 # st.table(df2.head())
 
 if df2 is not None:
