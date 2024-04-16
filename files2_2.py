@@ -38,7 +38,7 @@ st.subheader('Dealing with Images: ')
 
 # first Way:
 
-st.image('Streamlit/img.png')
+# st.image('Streamlit/img.png')
 
 # Second Way: 
 img = st.file_uploader('Upload the image Here: ',type=['jpeg','png'])
@@ -50,7 +50,7 @@ if img is not None:
 st.header('wkrking with videos: ')
 
 # first way: 
-st.video('Streamlit/song.mp3')
+# st.video('Streamlit/song.mp3')
 
 # second way:
 vid = st.file_uploader('upload the video file here: ',type=['mp3','mkv','mp4'])
